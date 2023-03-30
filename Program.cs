@@ -109,20 +109,19 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Porshe volkswagen = new Porshe();
-        volkswagen.speed = 160;
-
-        Console.Write(volkswagen.speed2());
+        Porshe porshe = new Porshe();
+        porshe.speed = 300;
+        Console.Write(porshe.speed2());
         Console.WriteLine(" км/ч");
-        volkswagen.load_capacity = 120;
-        Console.Write(volkswagen.load_capacity2());
+        porshe.load_capacity = 120;
+        Console.Write(porshe.load_capacity2());
         Console.WriteLine(" кг");
-        volkswagen.distance = 800000;
-        Console.Write(volkswagen.distance2());
+        porshe.distance = 700000;
+        Console.Write(porshe.distance2());
         Console.WriteLine(" км \n");
 
         Boeing_777 airplane = new Boeing_777();
-        airplane.speed = 600;
+        airplane.speed = 900;
         Console.Write(airplane.speed2());
         Console.WriteLine(" км/ч");
         airplane.load_capacity = 10000;
@@ -132,15 +131,15 @@ internal class Program
         Console.Write(airplane.distance2());
         Console.WriteLine(" км \n");
 
-        Mustai_Karim titanic = new Mustai_Karim();
-        titanic.speed = 100;
-        Console.Write(titanic.speed2());
+        Mustai_Karim m_k = new Mustai_Karim();
+        m_k.speed = 150;
+        Console.Write(m_k.speed2());
         Console.WriteLine(" км/ч");
-        titanic.load_capacity = 100000;
-        Console.Write(titanic.load_capacity2());
+        m_k.load_capacity = 100000;
+        Console.Write(m_k.load_capacity2());
         Console.WriteLine(" кг");
-        titanic.distance = 100000;
-        Console.Write(titanic.distance2());
+        m_k.distance = 100000;
+        Console.Write(m_k.distance2());
         Console.WriteLine(" км \n");
 
     }
